@@ -1,94 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="057ac47a-f1f9-4ed5-9e21-b6431a50c676" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/onFileDownloading.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/casperjs-1.1.4-1.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/parser.iml" afterPath="$PROJECT_DIR$/.idea/parser.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leboncoin.js" afterPath="$PROJECT_DIR$/leboncoin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/results.phtml" afterPath="$PROJECT_DIR$/src/views/results.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/cookbook.rst" afterPath="$PROJECT_DIR$/vendor/casperjs/docs/cookbook.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/events-filters.rst" afterPath="$PROJECT_DIR$/vendor/casperjs/docs/events-filters.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/casperjs/modules/casper.js" afterPath="$PROJECT_DIR$/vendor/casperjs/modules/casper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/casperjs/modules/clientutils.js" afterPath="$PROJECT_DIR$/vendor/casperjs/modules/clientutils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/mouseevents.js" afterPath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/mouseevents.js" />
-    </list>
+    <list default="true" id="057ac47a-f1f9-4ed5-9e21-b6431a50c676" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+              <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -532,18 +445,18 @@
       <workItem from="1497334431247" duration="57580000" />
       <workItem from="1497880600437" duration="5393000" />
       <workItem from="1497900956153" duration="24358000" />
-      <workItem from="1497953510282" duration="3295000" />
+      <workItem from="1497953510282" duration="3515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103190000" />
+    <option name="totallyTimeSpent" value="103410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10363248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10363248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -713,7 +626,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
           <folding />
         </state>
       </provider>
