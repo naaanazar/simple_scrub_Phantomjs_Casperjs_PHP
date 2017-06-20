@@ -7,18 +7,28 @@ var casper = require('casper').create({
     logLevel: "debug",              // Only "info" level messages will be logged
      //verbose: true,                  // log messages will be printed out to the console
     pageSettings: {
-        loadImages:  false,        // do not load images
+        loadImages:  true,        // do not load images
         loadPlugins: false        // do not load NPAPI plugins (Flash, Silverlight, ...)
     }
 });
 
 var url = casper.cli.args[0];
+casper.viewport(1920, 1080);
 
-casper.start(url,
-    function() {
+casper.start(url, function() {
+    this.scrollToBottom();
+});
+
+casper.then(function() {
+    casper.wait(1000, function() {
+        casper.waitForSelector('img', function() {
+            casper.capture('results/bot/screenshots/step1.png');
+        });
     });
+});
 casper.viewport(1920, 1080);
 casper.then(function() {
+    casper.capture('results/bot/screenshots/step1.png');
     links = this.evaluate(getContentProducts);
     this.echo(casper.evaluate(function (myObject) {
         return JSON.stringify(myObject);
@@ -65,6 +75,11 @@ function getContentProducts() {
         }
         if( e.querySelector('.item_price')) {
             content['price'] = e.querySelector('.item_price').getAttribute('content');
+        }
+        if( e.querySelector('img')) {
+            content['img'] = e.querySelector('img').getAttribute('src');
+        } else {
+            content['img'] = null;
         }
         content['link'] =  e.getAttribute('href');
 

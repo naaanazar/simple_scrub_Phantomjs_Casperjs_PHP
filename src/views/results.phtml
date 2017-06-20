@@ -10,6 +10,9 @@
 <?php foreach (json_decode($res1[0]) as $key): ?>
     <div class="row">
         <div class="col-md-8 col-md-offset-2 well">
+            <div class="col-md-1">
+                <img width="70px" src="<?= 'https:' . $key->img; ?>">
+            </div>
             <div class="col-md-7">
                 <h5><a href="<?= $key->link; ?>"><?= $key->title; ?></a></h5>
             </div>
@@ -22,4 +25,6 @@
         </div>
     </div>
 <?php endforeach; ?>
+
+<?php var_dump($res1); ?>
 
