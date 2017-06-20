@@ -13,12 +13,12 @@ var casper = require('casper').create({
 });
 
 var url = casper.cli.args[0];
-casper.viewport(1920, 1080);
+
 
 casper.start(url, function() {
     this.scrollToBottom();
 });
-
+casper.viewport(1920, 1080);
 casper.then(function() {
     casper.wait(1000, function() {
         casper.waitForSelector('img', function() {
@@ -81,6 +81,7 @@ function getContentProducts() {
         } else {
             content['img'] = null;
         }
+
         content['link'] =  e.getAttribute('href');
 
         return content;
