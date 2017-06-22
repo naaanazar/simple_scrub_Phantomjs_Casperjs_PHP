@@ -18,13 +18,15 @@ if (isset($_POST['data'])) {
 
     foreach (json_decode($_POST['data']) as $key) {
 
-        $title = $validation->validation('text', $key->title, null, null);
-        $price = $validation->validation('price', $key->price, null, null);
-        $date = $validation->validation('date', $key->date_publish, null, null);
+        if (property_exists("key", "id")){
+
+            $title = $validation->validation('text', $key->title, null, null);
+            $price = $validation->validation('price', $key->price, null, null);
+            $date = $validation->validation('date', $key->date_publish, null, null);
 
 
-
-        $sql = "INSERT IGNORE INTO leboncoin_voitures (product_id, title, price, image, massage, date_publish) VALUES ('". $key->id ."', '". $title ."', '". $price ."', '". $key->img ."', 0, '". $date ."')";
-        $result = $query->queryToDB($sql);
+            $sql = "INSERT IGNORE INTO leboncoin_voitures (product_id, title, price, image, massage, date_publish) VALUES ('" . $key->id . "', '" . $title . "', '" . $price . "', '" . $key->img . "', 0, '" . $date . "')";
+            $result = $query->queryToDB($sql);
+        }
     }
 }

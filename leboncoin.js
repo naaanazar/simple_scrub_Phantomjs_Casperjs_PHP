@@ -3,6 +3,7 @@ var links;
 
 var utils = require('utils');
 var fs = require('fs');
+var parseDay = true;
 
 var casper = require('casper').create({
     logLevel: "debug",              // Only "info" level messages will be logged
@@ -94,25 +95,35 @@ function getContentProducts() {
     var el = document.querySelectorAll('section.tabsContent  ul li a.list_item');
     elements =  Array.prototype.map.call(el, function(e) {
         var content = {};
-        content['id'] = e.querySelector('div.saveAd').getAttribute('data-savead-id');
-
-        if( e.querySelector('section h2')){
-            content['title'] = e.getAttribute('title');
-        }
-        if( e.querySelector('.item_price')) {
-            content['price'] = e.querySelector('.item_price').getAttribute('content');
-        }
-        if( e.querySelector('img')) {
-            content['img'] = e.querySelector('img').getAttribute('src');
-        } else {
-            content['img'] = null;
-        }
 
         if( e.querySelector('aside.item_absolute .item_supp')) {
-            content['date_publish'] = e.querySelector('aside.item_absolute .item_supp').getAttribute('content');
-        }
 
-        content['link'] =  e.getAttribute('href');
+            if ((new Date()).toISOString().substring(0, 10) === e.querySelector('aside.item_absolute .item_supp').getAttribute('content')){
+
+                var content = {};
+                content['id'] = e.querySelector('div.saveAd').getAttribute('data-savead-id');
+
+                if( e.querySelector('section h2')){
+                    content['title'] = e.getAttribute('title');
+                }
+                if( e.querySelector('.item_price')) {
+                    content['price'] = e.querySelector('.item_price').getAttribute('content');
+                }
+                if( e.querySelector('img')) {
+                    content['img'] = e.querySelector('img').getAttribute('src');
+                } else {
+                    content['img'] = null;
+                }
+
+                if( e.querySelector('aside.item_absolute .item_supp')) {
+                    content['date_publish'] = e.querySelector('aside.item_absolute .item_supp').getAttribute('content');
+                }
+                content['link'] =  e.getAttribute('href');
+
+            } else {
+                parseDay = false;
+            }
+        }
 
         return content;
     });
