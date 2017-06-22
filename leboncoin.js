@@ -9,7 +9,7 @@ var parseDay = true;
 
 var casper = require('casper').create({
     logLevel: "debug",              // Only "info" level messages will be logged
-    verbose: false,                  // log messages will be printed out to the console
+     //verbose: true,                  // log messages will be printed out to the console
     pageSettings: {
         loadImages:  true,        // do not load images
         loadPlugins: false        // do not load NPAPI plugins (Flash, Silverlight, ...)
@@ -17,7 +17,6 @@ var casper = require('casper').create({
 });
 
 var url = casper.cli.args[0];
-
 
 
 casper.start(url, function() {
@@ -34,7 +33,6 @@ casper.then(grubPage);
 
 
 casper.run(function () {
-    logF.close();
     this.exit();
 });
 
@@ -42,27 +40,20 @@ casper.run(function () {
 function grubPage(){
 
 
-    /*   if (linkToGrubPage !== null) {
-     casper.thenOpen(linkToGrubPage, function () {
-     this.scrollToBottom();
-     });
-     }*/
-
+  /*  if (linkToGrubPage !== null) {
+        casper.thenOpen(linkToGrubPage, function () {
+            this.scrollToBottom();
+        });
+    }*/
 
 //www.leboncoin.fr/voitures/offres/ile_de_france/?o=2&f=p
 
     casper.viewport(1920, 1080);
-
-    casper.then(function () {
-        casper.capture('results/bot/screenshots/step1.png');
-    });
-
     casper.then(function() {
-
         casper.wait(5000, function() {
-            //  casper.waitForSelector('img', function() {
-            casper.capture('results/bot/screenshots/step2.png');
-            //   });
+      //      casper.waitForSelector('img', function() {
+                // casper.capture('results/bot/screenshots/step1.png');
+       //     });
         });
     });
     casper.viewport(1920, 1080);
@@ -72,6 +63,9 @@ function grubPage(){
         this.echo(casper.evaluate(function (myObject) {
             return JSON.stringify(myObject);
         }, links));
+
+        linkToGrubPage = 'https:' + this.evaluate(getNextPage);
+        this.log('///////*********PARSE PAGE:' + linkToGrubPage, 'info');
 
         ids = this.evaluate(getId);
         this.echo(casper.evaluate(function (myObject) {
@@ -104,6 +98,7 @@ function grubPage(){
 
     });
 
+    countPage++;
     /*
      casper.then(function () {
      casper.capture('results/bot/screenshots/step2.png');
@@ -111,15 +106,13 @@ function grubPage(){
      */
 
     /*casper.then(function () {
-     if (parseDay) {
-     linkToGrubPage = 'https:' + this.evaluate(getNextPage);
-     if (linkToGrubPage.length > 12) {
-     casper.wait(2500, function () {
-     casper.then(grubPage);
-     });
-     }
-     }
-     });*/
+        linkToGrubPage = 'https:' + this.evaluate(getNextPage);
+        if(linkToGrubPage.length > 12) {
+            casper.wait(2500, function() {
+                casper.then(grubPage);
+            });
+        }
+    });*/
 }
 
 
@@ -184,3 +177,21 @@ function getContentProducts() {
     });
     return elements;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -24,7 +24,7 @@ casper.start('https://www.aliexpress.com/wholesale?ltype=wholesale&d=y&origin=y&
 /**
  * save logs to file
  */
-logF = fs.open('results/ali/log.txt','aw');
+logF = fs.open('results/ali/log.txt','w');
 casper.on('log', function(entry) {
     logF.writeLine(new Date() + '---' + entry.message);
     logF.flush();
