@@ -1,5 +1,7 @@
 var elements = [];
 var links;
+var linkToGrubPage = null;
+var countPage =1;
 
 var utils = require('utils');
 var fs = require('fs');
@@ -7,7 +9,7 @@ var parseDay = true;
 
 var casper = require('casper').create({
     logLevel: "debug",              // Only "info" level messages will be logged
-     //verbose: true,                  // log messages will be printed out to the console
+    verbose: false,                  // log messages will be printed out to the console
     pageSettings: {
         loadImages:  true,        // do not load images
         loadPlugins: false        // do not load NPAPI plugins (Flash, Silverlight, ...)
@@ -17,64 +19,117 @@ var casper = require('casper').create({
 var url = casper.cli.args[0];
 
 
+
 casper.start(url, function() {
     this.scrollToBottom();
 });
 
-casper.viewport(1920, 1080);
-casper.then(function() {
-    casper.wait(1000, function() {
-        casper.waitForSelector('img', function() {
-           // casper.capture('results/bot/screenshots/step1.png');
-        });
-    });
-});
-casper.viewport(1920, 1080);
-casper.then(function() {
-    /*casper.capture('results/bot/screenshots/step1.png');*/
-    links = this.evaluate(getContentProducts);
-    this.echo(casper.evaluate(function (myObject) {
-        return JSON.stringify(myObject);
-    }, links));
-
-    ids = this.evaluate(getId);
-    this.echo(casper.evaluate(function (myObject) {
-        return JSON.stringify(myObject);
-    }, ids));
+logF = fs.open('results/ali/log.txt','w');
+casper.on('log', function(entry) {
+    logF.writeLine(new Date() + '---' + entry.message);
+    logF.flush();
 });
 
-casper.then(function(){
+casper.then(grubPage);
 
 
-
-   var save =  casper.evaluate(function (myObject) {
-        return JSON.stringify(myObject);
-    }, links);
-
-    var fs = require('fs');
-    fs.write('myFile.json', casper.evaluate(function(myObject ) {
-        return JSON.stringify(myObject);
-    }, save), 'w');
-
-
-    this.open('http://parser:8080/save.php', {
-        method: 'post',
-        data: {
-            'name': '213213',
-            'data': save,
-        }
-    });
-
-});
-/*
-casper.then(function () {
-    casper.capture('results/bot/screenshots/step2.png');
-});
-*/
 casper.run(function () {
+    logF.close();
     this.exit();
 });
 
+
+function grubPage(){
+
+
+    /*   if (linkToGrubPage !== null) {
+     casper.thenOpen(linkToGrubPage, function () {
+     this.scrollToBottom();
+     });
+     }*/
+
+
+//www.leboncoin.fr/voitures/offres/ile_de_france/?o=2&f=p
+
+    casper.viewport(1920, 1080);
+
+    casper.then(function () {
+        casper.capture('results/bot/screenshots/step1.png');
+    });
+
+    casper.then(function() {
+
+        casper.wait(5000, function() {
+            //  casper.waitForSelector('img', function() {
+            casper.capture('results/bot/screenshots/step2.png');
+            //   });
+        });
+    });
+    casper.viewport(1920, 1080);
+    casper.then(function() {
+        /*casper.capture('results/bot/screenshots/step1.png');*/
+        links = this.evaluate(getContentProducts);
+        this.echo(casper.evaluate(function (myObject) {
+            return JSON.stringify(myObject);
+        }, links));
+
+        ids = this.evaluate(getId);
+        this.echo(casper.evaluate(function (myObject) {
+            return JSON.stringify(myObject);
+        }, ids));
+    });
+
+    casper.then(function(){
+
+
+
+        var save =  casper.evaluate(function (myObject) {
+            return JSON.stringify(myObject);
+        }, links);
+
+        var fs = require('fs');
+        fs.write('myFile.json', casper.evaluate(function(myObject ) {
+            return JSON.stringify(myObject);
+        }, save), 'w');
+
+
+        this.open('http://parser:8080/save.php', {
+            method: 'post',
+            data: {
+                'name': '213213',
+                'data': save,
+            }
+        });
+        countPage++;
+
+    });
+
+    /*
+     casper.then(function () {
+     casper.capture('results/bot/screenshots/step2.png');
+     });
+     */
+
+    /*casper.then(function () {
+     if (parseDay) {
+     linkToGrubPage = 'https:' + this.evaluate(getNextPage);
+     if (linkToGrubPage.length > 12) {
+     casper.wait(2500, function () {
+     casper.then(grubPage);
+     });
+     }
+     }
+     });*/
+}
+
+
+/**
+ * get next page link
+ * @returns {string}
+ */
+function getNextPage(){
+    return document.querySelector('div.pagination_links_container .selected').nextElementSibling.getAttribute('href');
+}
 
 /**
  *
@@ -98,7 +153,7 @@ function getContentProducts() {
 
         if( e.querySelector('aside.item_absolute .item_supp')) {
 
-            if ((new Date()).toISOString().substring(0, 10) === e.querySelector('aside.item_absolute .item_supp').getAttribute('content')){
+            if ((new Date()).toISOString().substring(0, 10) == e.querySelector('aside.item_absolute .item_supp').getAttribute('content')){
 
                 var content = {};
                 content['id'] = e.querySelector('div.saveAd').getAttribute('data-savead-id');
@@ -129,21 +184,3 @@ function getContentProducts() {
     });
     return elements;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

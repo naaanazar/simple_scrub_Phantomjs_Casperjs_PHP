@@ -1,0 +1,62 @@
+Thu Jun 22 2017 23:31:55 GMT+0300 (Финляндия (лето))---Starting...
+Thu Jun 22 2017 23:31:55 GMT+0300 (Финляндия (лето))---Running suite: 3 steps
+Thu Jun 22 2017 23:31:55 GMT+0300 (Финляндия (лето))---opening url: https://www.leboncoin.fr/voitures/offres/ile_de_france/?f=p, HTTP GET
+Thu Jun 22 2017 23:31:55 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://www.leboncoin.fr/voitures/offres/ile_de_france/?f=p, type=Other, willNavigate=true, isMainFrame=true
+Thu Jun 22 2017 23:31:55 GMT+0300 (Финляндия (лето))---url changed to "https://www.leboncoin.fr/voitures/offres/ile_de_france/?f=p"
+Thu Jun 22 2017 23:31:57 GMT+0300 (Финляндия (лето))---Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:57 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://googleads.g.doubleclick.net/pagead/html/r20170614/r20170110/zrt_lookup.html#, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:57 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-5173402840022387&format=348x155&output=html&h=155&slotname=4958852922&adk=1703771889&adf=640728719&w=348&lmt=1498152717&loeid=191880401&flash=0&url=https%3A%2F%2Fwww.leboncoin.fr%2Fvoitures%2Foffres%2File_de_france%2F%3Ff%3Dp&wgl=0&dt=1498163517462&bpp=11&bdt=1605&fdt=15&idt=228&shv=r20170614&cbv=r20170110&saldr=aa&correlator=2328862226433&frm=20&ga_vid=1491230419.1498163518&ga_sid=1498163518&ga_hid=485130571&ga_fc=0&pv=2&iag=3&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=180&u_his=1&u_java=0&u_h=1080&u_w=1920&u_ah=1040&u_aw=1920&u_cd=32&u_nplug=0&u_nmime=0&adx=26&ady=4428&biw=400&bih=300&abxe=1&eid=4089040%2C10593696%2C191880411%2C389613001&oid=3&rx=0&eae=0&fc=664&brdim=0%2C0%2C0%2C0%2C1920%2C0%2C0%2C0%2C400%2C300&vis=1&rsz=%7C%7CoeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=272&bc=1&ifi=1&xpc=CEXbnPWRts&p=https%3A//www.leboncoin.fr&dtd=257, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:58 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:58 GMT+0300 (Финляндия (лето))---Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:58 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://cstatic.weborama.fr/iframe/external_ids_sync.html?d.r=1498163518342, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:58 GMT+0300 (Финляндия (лето))---Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:58 GMT+0300 (Финляндия (лето))---Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:58 GMT+0300 (Финляндия (лето))---Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:58 GMT+0300 (Финляндия (лето))---Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:58 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:58 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://acdn.adnxs.com/mediation/v2/mediation.js, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:58 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://acdn.adnxs.com/mediation/v2/mediation.js, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:58 GMT+0300 (Финляндия (лето))---Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:58 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://acdn.adnxs.com/mediation/v2/mediation.js, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:58 GMT+0300 (Финляндия (лето))---Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:59 GMT+0300 (Финляндия (лето))---Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:59 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1204413475817105&output=html&h=50&slotname=5935702134&adk=776314119&adf=778008311&w=320&ea=0&flash=0&url=https%3A%2F%2Fwww.leboncoin.fr%2Fvoitures%2Foffres%2File_de_france%2F%3Ff%3Dp&wgl=0&dt=1498163519114&bpp=11&bdt=155&fdt=13&idt=20&shv=r20170614&cbv=r20170110&saldr=sa&correlator=2328862226433&frm=23&ga_vid=1965737582.1498163519&ga_sid=1498163519&ga_hid=1233661381&ga_fc=0&pv=2&iag=63&icsg=2&nhd=3&dssz=2&mdo=0&mso=0&u_tz=180&u_his=1&u_java=0&u_h=1080&u_w=1920&u_ah=1040&u_aw=1920&u_cd=32&u_nplug=0&u_nmime=0&adx=40&ady=154&biw=400&bih=300&isw=0&ish=0&ifk=2175113146&eid=4089040%2C10593695%2C389613001%2C21060297&oid=3&rx=0&eae=2&fc=664&brdim=0%2C0%2C0%2C0%2C1920%2C0%2C0%2C0%2C0%2C0&vis=1&rsz=d%7Cd%7CovneE%7Cn&abl=XS&ppjl=f&pfx=0&fu=20&bc=1&ifi=1&dtd=35, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:59 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://c.bing.com/c.gif?anx_uid=348341644667295650&Red3=MSAN_pd, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:59 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://acdn.adnxs.com/mediation/noad.html, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:59 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://m.adnxs.com/seg?add=5159620&redir=https%3A%2F%2Fm.adnxs.com%2Fmapuid%3Fmember%3D226%26user%3D1758A3E5EE7D653C2AF4A94CEA7D669A%3B%26redir%3Dhttps%253A%252F%252Fm.adnxs.com%252Fmapuid%253Fmember%253D280%2526user%253D1758A3E5EE7D653C2AF4A94CEA7D669A%253B, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:59 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://acdn.adnxs.com/mediation/v2/mediation.js, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:59 GMT+0300 (Финляндия (лето))---Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:59 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1204413475817105&output=html&h=50&slotname=9471483534&adk=3288095868&adf=2485283787&w=320&ea=0&flash=0&url=https%3A%2F%2Fwww.leboncoin.fr%2Fvoitures%2Foffres%2File_de_france%2F%3Ff%3Dp&wgl=0&dt=1498163519717&bpp=6&bdt=3&fdt=7&idt=13&shv=r20170614&cbv=r20170110&saldr=sa&correlator=2328862226433&frm=23&ga_vid=56629589.1498163520&ga_sid=1498163520&ga_hid=1203016217&ga_fc=0&pv=1&iag=63&icsg=2&nhd=3&dssz=2&mdo=0&mso=0&u_tz=180&u_his=1&u_java=0&u_h=1080&u_w=1920&u_ah=1040&u_aw=1920&u_cd=32&u_nplug=0&u_nmime=0&adx=40&ady=154&biw=400&bih=300&isw=0&ish=0&ifk=4068457458&eid=4089040%2C10593696%2C389613001&oid=3&rx=0&eae=2&fc=664&brdim=0%2C0%2C0%2C0%2C1920%2C0%2C0%2C0%2C0%2C0&vis=1&rsz=%7C%7CovneE%7C&abl=CS&ppjl=f&pfx=0&fu=20&bc=1&ifi=1&dtd=27, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:59 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:31:59 GMT+0300 (Финляндия (лето))---Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:32:00 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://m.adnxs.com/mapuid?member=226&user=1758A3E5EE7D653C2AF4A94CEA7D669A;&redir=https%3A%2F%2Fm.adnxs.com%2Fmapuid%3Fmember%3D280%26user%3D1758A3E5EE7D653C2AF4A94CEA7D669A%3B, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:32:00 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://s.amazon-adsystem.com/x/da2e6c890e6e3636, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:32:00 GMT+0300 (Финляндия (лето))---Navigation requested: url=https://m.adnxs.com/mapuid?member=280&user=1758A3E5EE7D653C2AF4A94CEA7D669A;, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:32:00 GMT+0300 (Финляндия (лето))---Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:32:00 GMT+0300 (Финляндия (лето))---Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:32:00 GMT+0300 (Финляндия (лето))---Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+Thu Jun 22 2017 23:32:00 GMT+0300 (Финляндия (лето))---Successfully injected Casper client-side utilities
+Thu Jun 22 2017 23:32:00 GMT+0300 (Финляндия (лето))---Step anonymous 2/3 https://www.leboncoin.fr/voitures/offres/ile_de_france/?f=p (HTTP 200)
+Thu Jun 22 2017 23:32:00 GMT+0300 (Финляндия (лето))---Step anonymous 2/3: done in 5332ms.
+Thu Jun 22 2017 23:32:00 GMT+0300 (Финляндия (лето))---Step grubPage 3/3 https://www.leboncoin.fr/voitures/offres/ile_de_france/?f=p (HTTP 200)
+Thu Jun 22 2017 23:32:00 GMT+0300 (Финляндия (лето))---Step grubPage 3/3: done in 5564ms.
+Thu Jun 22 2017 23:32:00 GMT+0300 (Финляндия (лето))---Step _step 4/8 https://www.leboncoin.fr/voitures/offres/ile_de_france/?f=p (HTTP 200)
+Thu Jun 22 2017 23:32:00 GMT+0300 (Финляндия (лето))---Step _step 4/8: done in 5631ms.
+Thu Jun 22 2017 23:32:00 GMT+0300 (Финляндия (лето))---Step anonymous 5/8 https://www.leboncoin.fr/voitures/offres/ile_de_france/?f=p (HTTP 200)
+Thu Jun 22 2017 23:32:00 GMT+0300 (Финляндия (лето))------1///////*********linkToGrubPage:  ----null
+Thu Jun 22 2017 23:32:00 GMT+0300 (Финляндия (лето))---Step anonymous 5/8: done in 5790ms.
+Thu Jun 22 2017 23:32:01 GMT+0300 (Финляндия (лето))---Step _step 6/9 https://www.leboncoin.fr/voitures/offres/ile_de_france/?f=p (HTTP 200)
+Thu Jun 22 2017 23:32:01 GMT+0300 (Финляндия (лето))---Step _step 6/9: done in 5806ms.
+Thu Jun 22 2017 23:32:04 GMT+0300 (Финляндия (лето))---wait() finished waiting for 3000ms.
+Thu Jun 22 2017 23:32:04 GMT+0300 (Финляндия (лето))---Step _step 7/9 https://www.leboncoin.fr/voitures/offres/ile_de_france/?f=p (HTTP 200)
+Thu Jun 22 2017 23:32:04 GMT+0300 (Финляндия (лето))---Step _step 7/9: done in 9406ms.
+Thu Jun 22 2017 23:32:04 GMT+0300 (Финляндия (лето))---Step anonymous 8/9 https://www.leboncoin.fr/voitures/offres/ile_de_france/?f=p (HTTP 200)
+Thu Jun 22 2017 23:32:04 GMT+0300 (Финляндия (лето))---Step anonymous 8/9: done in 9508ms.
+Thu Jun 22 2017 23:32:04 GMT+0300 (Финляндия (лето))---Step anonymous 9/9 https://www.leboncoin.fr/voitures/offres/ile_de_france/?f=p (HTTP 200)
+Thu Jun 22 2017 23:32:04 GMT+0300 (Финляндия (лето))---///////*********SAVE:[]
+Thu Jun 22 2017 23:32:04 GMT+0300 (Финляндия (лето))---opening url: http://parser:8080/save.php, HTTP POST
+Thu Jun 22 2017 23:32:04 GMT+0300 (Финляндия (лето))---Navigation requested: url=http://parser:8080/save.php, type=Other, willNavigate=true, isMainFrame=true
+Thu Jun 22 2017 23:32:04 GMT+0300 (Финляндия (лето))---Step anonymous 9/9: done in 9542ms.
+Thu Jun 22 2017 23:32:04 GMT+0300 (Финляндия (лето))---url changed to "http://parser:8080/save.php"
+Thu Jun 22 2017 23:32:04 GMT+0300 (Финляндия (лето))---Successfully injected Casper client-side utilities
+Thu Jun 22 2017 23:32:04 GMT+0300 (Финляндия (лето))---Done 9 steps in 9567ms
