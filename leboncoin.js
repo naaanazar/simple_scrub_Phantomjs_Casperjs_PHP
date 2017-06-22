@@ -1,4 +1,5 @@
 var elements = [];
+var links;
 
 var utils = require('utils');
 var fs = require('fs');
@@ -18,6 +19,7 @@ var url = casper.cli.args[0];
 casper.start(url, function() {
     this.scrollToBottom();
 });
+
 casper.viewport(1920, 1080);
 casper.then(function() {
     casper.wait(1000, function() {
@@ -38,6 +40,30 @@ casper.then(function() {
     this.echo(casper.evaluate(function (myObject) {
         return JSON.stringify(myObject);
     }, ids));
+});
+
+casper.then(function(){
+
+
+
+   var save =  casper.evaluate(function (myObject) {
+        return JSON.stringify(myObject);
+    }, links);
+
+    var fs = require('fs');
+    fs.write('myFile.json', casper.evaluate(function(myObject ) {
+        return JSON.stringify(myObject);
+    }, save), 'w');
+
+
+    this.open('http://parser:8080/save.php', {
+        method: 'post',
+        data: {
+            'name': '213213',
+            'data': save,
+        }
+    });
+
 });
 /*
 casper.then(function () {
@@ -80,6 +106,10 @@ function getContentProducts() {
             content['img'] = e.querySelector('img').getAttribute('src');
         } else {
             content['img'] = null;
+        }
+
+        if( e.querySelector('aside.item_absolute .item_supp')) {
+            content['date_publish'] = e.querySelector('aside.item_absolute .item_supp').getAttribute('content');
         }
 
         content['link'] =  e.getAttribute('href');
