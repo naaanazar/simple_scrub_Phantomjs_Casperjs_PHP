@@ -2,9 +2,442 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="057ac47a-f1f9-4ed5-9e21-b6431a50c676" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step1.png" afterPath="$PROJECT_DIR$/public/results/bot/screenshots/step1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2.png" afterPath="$PROJECT_DIR$/public/results/bot/screenshots/step2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/common.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2/step2_9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step4/step4_9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/.eslintignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/CONTRIBUTORS.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/bin/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/bin/casperjs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/bin/casperjs.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/bin/casperjs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/bin/usage.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/casperjs-1.1.4-1.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/casperjs.gemspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/casperjs-favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/casperjs-logo-medium.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/casperjs-logo-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/casperjs-logo-squared-inv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/casperjs-logo-squared.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/casperjs-logo-xsmall.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/casperjs-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/casperjs-rounded.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/colorizer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/cow-test-ko.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/cow-test-ok.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/demo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/evaluate-diagram.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/forkme.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/logo_casperjs.ai" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/logo_casperjs.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/logo_casperjs.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/logoutput.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/split-test-results.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/tar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/testsuiteok.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_static/images/zip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_themes/casperjs/addon.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_themes/casperjs/layout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_themes/casperjs/localtoc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_themes/casperjs/sourcelink.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_themes/casperjs/static/casperjs-dark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_themes/casperjs/static/casperjs-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_themes/casperjs/static/style-switcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/_themes/casperjs/theme.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/changelog.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/cli.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/conf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/cookbook.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/credits.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/debugging.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/events-filters.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/extending.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/faq.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/installation.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/known_issues.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/license.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/logging.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/modules/casper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/modules/clientutils.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/modules/colorizer.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/modules/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/modules/mouse.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/modules/tester.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/modules/utils.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/quickstart.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/selectors.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/testing.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/upgrading/1.1.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/upgrading/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/docs/writing_modules.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/modules/casper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/modules/cli.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/modules/clientutils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/modules/colorizer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/modules/events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/modules/http.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/modules/mouse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/modules/pagestack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/modules/querystring.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/modules/tester.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/modules/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/modules/xunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/rpm/build" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/rpm/casperjs.spec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/bbcshots.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/bbcshots.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/cliplay.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/cliplay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/customevents.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/customevents.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/customlogging.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/customlogging.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/download.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/download.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/dynamic.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/dynamic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/each.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/each.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/events.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/extends.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/extends.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/googlelinks.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/googlelinks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/googlematch.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/googlematch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/googlepagination.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/googlepagination.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/googletesting.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/googletesting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/logcolor.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/logcolor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/metaextract.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/metaextract.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/multirun.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/multirun.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/screenshot.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/screenshot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/statushandlers.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/statushandlers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/steptimeout.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/steptimeout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/timeout.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/timeout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/translate.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/samples/translate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/src/casperjs.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/error/syntax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/fail-fast/manual-abort/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/fail-fast/standard/hook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/fail-fast/standard/test1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/fail-fast/standard/test2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/fail-fast/standard/test3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/modules/mod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/modules/node_modules/bar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/modules/node_modules/baz/baz.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/modules/node_modules/baz/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/modules/node_modules/foo/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/modules/node_modules/json.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/modules/sub/coffeemod.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/modules/sub/mod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/modules/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/modules/test_coffee.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/modules/test_node_json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/modules/test_node_mod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/modules/test_node_mod_index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/modules/test_node_mod_json_package.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/modules/test_node_subdir/test_node_mod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/modules/test_patched_require.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/runtests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/scripts/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/scripts/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/tester/casper-instance-override.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/tester/dubious.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/tester/exit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/tester/failing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/tester/mytest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/tester/passing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/tester/skipped.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/tester/step_throws.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/clitests/tester/waitFor_timeout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/sample_modules/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/sample_modules/csmodule.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/sample_modules/jsmodule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/selftest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/alert.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/area.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/callback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/click.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/close.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/confirm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/csv/base64encode.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/dummy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/dummy.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/dummy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/elementattribute.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/error.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/field-array.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/field-file-multiple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/frame1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/frame2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/frame3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/frame4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/frames.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/global.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/has%20space.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/images/phantom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/includes/include1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/includes/include2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/mouse-events.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/multiple-forms.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/multiple-popups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/page1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/page2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/page3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/plaintext.notype" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/popup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/prompt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/redirect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/resources.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/selector.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/urls.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/visible.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/site/waitFor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/.casper" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/.casper" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/agent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/auth.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/bypass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/callback.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/callutils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/capture.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/click.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/confirm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/content.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/css3selector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/elementattribute.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/encode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/encodedurl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/evaluate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/exists.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/fetchtext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/flow.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/formfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/frames.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/getplaintext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/headers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/history.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/hooks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/logging.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/mouseevents.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/multiplepopups.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/navigation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/newpage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/onerror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/open.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/pagerequest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/popup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/prompt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/reload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/request.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/request.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/resources.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/sendAjax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/steps.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/urls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/viewport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/visible.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/wait.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/casper/xpath.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/cli.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/clientutils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/coffee.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/fs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/http_status.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/pagestack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/require.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/tester/.casper" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/tester/assert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/tester/begin-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/tester/setup-teardown-async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/tester/setup-teardown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/tester/skip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/tester/test-order.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/tester/testcase.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/tester/testsuite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/suites/xunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/testdir/01_a/abc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/testdir/01_a/def.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/testdir/02_b/abc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/testdir/03_a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/testdir/03_b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/testdir/04/01_init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/casperjs/tests/testdir/04/02_do.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/ChangeLog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/LICENSE.BSD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/bin/phantomjs.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/arguments.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/child_process-examples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/colorwheel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/countdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/detectsniff.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/echoToFile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/features.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/fibo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/hello.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/injectme.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/loadspeed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/loadurlwithoutcss.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/netlog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/netsniff.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/openurlwithproxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/outputEncoding.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/page_events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/pagecallback.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/phantomwebintro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/post.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/postjson.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/postserver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/printenv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/printheaderfooter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/printmargins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/rasterize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/render_multi_url.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/responsive-screenshot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/run-jasmine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/run-jasmine2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/run-qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/scandir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/serverkeepalive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/simpleserver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/sleepsort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/stdin-stdout-stderr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/universe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/unrandomize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/useragent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/version.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/waitfor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/examples/walk_through_frames.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phantomjs/third-party.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step1.png" afterPath="$PROJECT_DIR$/public/results/bot/screenshots/step1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/results/bot/screenshots/step2.png" afterPath="$PROJECT_DIR$/public/results/bot/screenshots/step2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/parser.iml" afterPath="$PROJECT_DIR$/.idea/parser.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leboncoin.js" afterPath="$PROJECT_DIR$/leboncoin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/results.phtml" afterPath="$PROJECT_DIR$/src/views/results.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/tamplate.phtml" afterPath="$PROJECT_DIR$/src/views/tamplate.phtml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/casperjs/.gitmodules" afterPath="$PROJECT_DIR$/public/css/style.css" />
+>>>>>>> 93557b5046099481d4cc4af86126e97f74396eaa
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,78 +452,57 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="service.config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/employee-app-us/module/Application/config/service.config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module.config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/employee-app-us/module/Application/config/module.config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-              <folding>
-                <element signature="e#30#73#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="results.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/results.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="459">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/OpenServer/domains/facebook/index.php">
+      <file leaf-file-name="leboncoin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leboncoin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="102">
+              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conf.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/OpenServer/domains/facebook/app/conf.php">
+      <file leaf-file-name="tamplate.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/tamplate.phtml">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="51">
               <caret line="3" column="57" lean-forward="false" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+=======
+            <state relative-caret-position="153">
+              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+>>>>>>> 93557b5046099481d4cc4af86126e97f74396eaa
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FacebookApp.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/OpenServer/domains/facebook/app/FacebookApp.php">
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="229">
               <caret line="137" column="5" lean-forward="false" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
+=======
+            <state relative-caret-position="425">
+              <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+>>>>>>> 93557b5046099481d4cc4af86126e97f74396eaa
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/parser/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -100,25 +512,46 @@
                 <folding />
               </first_editor>
               <second_editor />
+=======
+      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="70" lean-forward="false" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="70" />
+              <folding />
+>>>>>>> 93557b5046099481d4cc4af86126e97f74396eaa
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leboncoin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leboncoin.js">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-629">
               <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+=======
+            <state relative-caret-position="289">
+              <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+>>>>>>> 93557b5046099481d4cc4af86126e97f74396eaa
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="93">
               <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+=======
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+>>>>>>> 93557b5046099481d4cc4af86126e97f74396eaa
               <folding />
             </state>
           </provider>
@@ -171,15 +604,23 @@
         <option value="$PROJECT_DIR$/src/views/index.phtml" />
         <option value="$PROJECT_DIR$/src/views/send_success.phtml" />
         <option value="$PROJECT_DIR$/sendMassages.js" />
-        <option value="$PROJECT_DIR$/src/views/tamplate.phtml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$USER_HOME$/Desktop/test/fsg/employee-app-us/module/Application/config/module.config.php" />
         <option value="$USER_HOME$/Desktop/test/fsg/employee-app-us/employee-app-us/module/Application/config/module.config.php" />
-        <option value="$PROJECT_DIR$/leboncoin.js" />
+        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/src/views/results.phtml" />
+<<<<<<< HEAD
         <option value="$USER_HOME$/Desktop/OpenServer/domains/facebook/app/FacebookApp.php" />
         <option value="$USER_HOME$/Desktop/parser/README.md" />
         <option value="$PROJECT_DIR$/public/index.php" />
+=======
+        <option value="$PROJECT_DIR$/leboncoin.js" />
+        <option value="$PROJECT_DIR$/public/bootstrap/js/common.js" />
+        <option value="$PROJECT_DIR$/public/bootstrap/css/style.css" />
+        <option value="$PROJECT_DIR$/src/views/tamplate.phtml" />
+        <option value="$PROJECT_DIR$/public/js/common.js" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+>>>>>>> 93557b5046099481d4cc4af86126e97f74396eaa
       </list>
     </option>
   </component>
@@ -194,10 +635,17 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="1" />
     <option name="y" value="1" />
     <option name="width" value="1918" />
     <option name="height" value="1038" />
+=======
+    <option name="x" value="4" />
+    <option name="y" value="126" />
+    <option name="width" value="1284" />
+    <option name="height" value="1028" />
+>>>>>>> 93557b5046099481d4cc4af86126e97f74396eaa
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -214,6 +662,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -291,6 +740,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -345,7 +812,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,6 +824,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\OpenServer\domains\parser\public\css" />
+      <recent name="F:\OpenServer\domains\parser\public\js" />
       <recent name="F:\OpenServer\domains\parser\public" />
     </key>
   </component>
@@ -374,6 +842,17 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -452,11 +931,18 @@
       <workItem from="1497334431247" duration="57580000" />
       <workItem from="1497880600437" duration="5393000" />
       <workItem from="1497900956153" duration="24358000" />
+<<<<<<< HEAD
       <workItem from="1497953510282" duration="13045000" />
+=======
+      <workItem from="1497953510282" duration="6604000" />
+      <workItem from="1498075381135" duration="489000" />
+      <workItem from="1498080930666" duration="2517000" />
+>>>>>>> 93557b5046099481d4cc4af86126e97f74396eaa
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="112940000" />
   </component>
   <component name="ToolWindowManager">
@@ -468,18 +954,31 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="109505000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="4" y="126" width="1284" height="1028" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26104102" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 93557b5046099481d4cc4af86126e97f74396eaa
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34269664" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +1000,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/myFile.json" />
+=======
+>>>>>>> 93557b5046099481d4cc4af86126e97f74396eaa
     <entry file="file://$PROJECT_DIR$/write_to_file.js" />
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/test2.js" />
@@ -524,29 +1026,7 @@
     <entry file="file://$PROJECT_DIR$/../results/ali/csv/res.csv" />
     <entry file="file://$PROJECT_DIR$/parser_google.js" />
     <entry file="file://$PROJECT_DIR$/scrubAliexpress.js" />
-    <entry file="file://$PROJECT_DIR$/sendMassages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/tamplate.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="68" lean-forward="false" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sendMassages.js" />
     <entry file="file://$PROJECT_DIR$/src/views/send_success.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -556,6 +1036,7 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/phantomjs-casperjs-scripts/README.md" />
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/Desktop/parser/leboncoin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -564,11 +1045,13 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$USER_HOME$/Desktop/parser/leboncoin.js" />
+>>>>>>> 93557b5046099481d4cc4af86126e97f74396eaa
     <entry file="file://$PROJECT_DIR$/vendor/casperjs/.gitmodules">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -576,98 +1059,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/config/modules.config.php">
+    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/config/modules.config.php" />
+    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/config/application.config.php" />
+    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/module/Application/config/console.config.php" />
+    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/module/Application/config/view.config.php" />
+    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/module/Application/config/service.config.php" />
+    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/module/Application/config/scripts.config.php" />
+    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/module/Application/config/routes.config.php" />
+    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/module/Application/config/module.config.php" />
+    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/config/development.config.dist.php" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/employee-app-us/module/Application/config/service.config.php" />
+    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/employee-app-us/module/Application/config/module.config.php" />
+    <entry file="file://$USER_HOME$/Desktop/OpenServer/domains/facebook/index.php" />
+    <entry file="file://$USER_HOME$/Desktop/OpenServer/domains/facebook/app/conf.php" />
+    <entry file="file://$USER_HOME$/Desktop/OpenServer/domains/facebook/app/FacebookApp.php" />
+    <entry file="file://$USER_HOME$/Desktop/OpenServer/domains/facebook/11.php" />
+    <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/config/application.config.php">
+    <entry file="file://$PROJECT_DIR$/src/views/results.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/module/Application/config/console.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/module/Application/config/view.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/module/Application/config/service.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/module/Application/config/scripts.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/module/Application/config/routes.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1248">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/module/Application/config/module.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/config/development.config.dist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/employee-app-us/module/Application/config/service.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/Desktop/test/fsg/employee-app-us/employee-app-us/module/Application/config/module.config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -682,20 +1109,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+=======
+    <entry file="file://$PROJECT_DIR$/leboncoin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+>>>>>>> 93557b5046099481d4cc4af86126e97f74396eaa
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/Desktop/OpenServer/domains/facebook/index.php">
+=======
+    <entry file="file://$PROJECT_DIR$/src/views/index.phtml">
+>>>>>>> 93557b5046099481d4cc4af86126e97f74396eaa
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="136">
+          <caret line="8" column="70" lean-forward="false" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/OpenServer/domains/facebook/app/conf.php">
+    <entry file="file://$PROJECT_DIR$/src/views/tamplate.phtml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="51">
           <caret line="3" column="57" lean-forward="false" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
           <folding />
@@ -706,18 +1144,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="153">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+>>>>>>> 93557b5046099481d4cc4af86126e97f74396eaa
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/OpenServer/domains/facebook/app/FacebookApp.php">
+    <entry file="file://$PROJECT_DIR$/public/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="229">
           <caret line="137" column="5" lean-forward="false" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
+=======
+        <state relative-caret-position="425">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+>>>>>>> 93557b5046099481d4cc4af86126e97f74396eaa
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/Desktop/parser/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -741,6 +1189,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
           <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+=======
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+>>>>>>> 93557b5046099481d4cc4af86126e97f74396eaa
           <folding />
         </state>
       </provider>

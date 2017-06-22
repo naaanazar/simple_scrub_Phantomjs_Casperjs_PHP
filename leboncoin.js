@@ -22,13 +22,13 @@ casper.viewport(1920, 1080);
 casper.then(function() {
     casper.wait(1000, function() {
         casper.waitForSelector('img', function() {
-            casper.capture('results/bot/screenshots/step1.png');
+           // casper.capture('results/bot/screenshots/step1.png');
         });
     });
 });
 casper.viewport(1920, 1080);
 casper.then(function() {
-    casper.capture('results/bot/screenshots/step1.png');
+    /*casper.capture('results/bot/screenshots/step1.png');*/
     links = this.evaluate(getContentProducts);
     this.echo(casper.evaluate(function (myObject) {
         return JSON.stringify(myObject);
@@ -38,12 +38,12 @@ casper.then(function() {
     this.echo(casper.evaluate(function (myObject) {
         return JSON.stringify(myObject);
     }, ids));
-
 });
+/*
 casper.then(function () {
     casper.capture('results/bot/screenshots/step2.png');
 });
-
+*/
 casper.run(function () {
     this.exit();
 });
