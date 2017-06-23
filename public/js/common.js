@@ -1,3 +1,30 @@
+var basicURL = 'http://parser:8080'
+
+$(document).on('click', '.send_message_button', function() {
+    $('.send_message_button').hide();
+
+     setTimeout(doSomething, 5000);
+});
+
+
+$(document).on('click', '.start_button', function() {
+    console.log("start");
+    setTimeout(doSomething, 5000);
+});
+
+
+function doSomething() {
+    console.log("10 seconds");
+    $.get( basicURL + "?getCountMasseges=get", function( data ) {
+        var count  = JSON.parse(data);
+        $('.no_send_masseges').html(count[0]);
+        $('.send_messages').html(count[1]);
+
+    });
+    setTimeout(doSomething, 5000);
+}
+
+
 $(function() {
 
     var loading = function() {
@@ -22,7 +49,7 @@ $(function() {
 
     // you won't need this button click
     // just call the loading function directly
-    $('button').click(loading);
-    $('.start').click(loading);
+
+    $('.get_loader').click(loading);
 
 });

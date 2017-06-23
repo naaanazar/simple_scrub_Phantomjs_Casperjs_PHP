@@ -16,12 +16,11 @@ var casper = require('casper').create({
     }
 });
 
-var url = casper.cli.args[0];
+//var urlSite = casper.cli.args[0];
+var urlSite = 'https://www.leboncoin.fr/voitures/offres/ile_de_france/?f=p';
 
 
-casper.start(url, function() {
-    this.scrollToBottom();
-});
+casper.start();
 
 logF = fs.open('results/log.txt','w');
 casper.on('log', function(entry) {
@@ -37,22 +36,35 @@ casper.run(function () {
 });
 
 
+
+
 function grubPage(){
 
     if (linkToGrubPage !== null) {
         casper.thenOpen(linkToGrubPage, function () {
             this.scrollToBottom();
         });
+    } else {
+        casper.thenOpen(urlSite, function () {
+            casper.scrollToBottom();
+
+        });
+
+        casper.then(function() {
+            casper.wait(5000, function(){
+                casper.capture('results/screenshots/step3.png');
+            })
+        });
     }
 
 //www.leboncoin.fr/voitures/offres/ile_de_france/?o=2&f=p
 
-    casper.viewport(1920, 1080);
+   // casper.viewport(1920, 1080);
     casper.then(function() {
         casper.wait(7000, function() {
-      //      casper.waitForSelector('img', function() {
+            casper.waitForSelector('img', function() {
                  casper.capture('results/screenshots/page_' + countPage + '.png');
-       //     });
+            });
         });
     });
     casper.viewport(1920, 1080);
@@ -121,7 +133,7 @@ function grubPage(){
 
     casper.then(function () {
         this.log('///////*********FLAG:' + parseDay, 'info');
-        if(parseDay === true) {
+        if(countPage<4 &&  parseDay === true) {
             if (linkToGrubPage.length > 12) {
                 casper.wait(10000, function () {
                     casper.then(grubPage);
