@@ -23,9 +23,9 @@ casper.start(url, function() {
     this.scrollToBottom();
 });
 
-logF = fs.open('results/ali/log.txt','w');
+logF = fs.open('results/log.txt','w');
 casper.on('log', function(entry) {
-    logF.writeLine(new Date() + '---' + entry.message);
+    logF.writeLine(new Date() + '---' +countPage + '---' + entry.message);
     logF.flush();
 });
 
@@ -40,24 +40,25 @@ casper.run(function () {
 function grubPage(){
 
 
-  /*  if (linkToGrubPage !== null) {
+    if (linkToGrubPage !== null) {
         casper.thenOpen(linkToGrubPage, function () {
             this.scrollToBottom();
         });
-    }*/
+    }
 
 //www.leboncoin.fr/voitures/offres/ile_de_france/?o=2&f=p
 
     casper.viewport(1920, 1080);
     casper.then(function() {
-        casper.wait(5000, function() {
+        casper.wait(7000, function() {
       //      casper.waitForSelector('img', function() {
-                // casper.capture('results/bot/screenshots/step1.png');
+                 casper.capture('results/screenshots/page_' + countPage + '.png');
        //     });
         });
     });
     casper.viewport(1920, 1080);
     casper.then(function() {
+        this.log('///////*********START SCRUB PAGE:' + countPage, 'info');
         /*casper.capture('results/bot/screenshots/step1.png');*/
         links = this.evaluate(getContentProducts);
         this.echo(casper.evaluate(function (myObject) {
@@ -71,6 +72,20 @@ function grubPage(){
         this.echo(casper.evaluate(function (myObject) {
             return JSON.stringify(myObject);
         }, ids));
+
+        this.log('///////*********PARSE RESULTS:' + ids, 'info');
+
+        var dates = this.evaluate(getDate);
+
+        casper.each(dates, function (self, date, i) {
+
+            this.log('///////*********DATES: ' + i + '----' + date, 'info');
+            this.log('///////*********TODAY' +(new Date()).toISOString().substring(0, 10), 'info');
+
+            if ((new Date()).toISOString().substring(0, 10) != date){
+                parseDay = false;
+            }
+        });
     });
 
     casper.then(function(){
@@ -98,21 +113,23 @@ function grubPage(){
 
     });
 
-    countPage++;
     /*
      casper.then(function () {
      casper.capture('results/bot/screenshots/step2.png');
      });
      */
 
-    /*casper.then(function () {
-        linkToGrubPage = 'https:' + this.evaluate(getNextPage);
-        if(linkToGrubPage.length > 12) {
-            casper.wait(2500, function() {
-                casper.then(grubPage);
-            });
+
+    casper.then(function () {
+        this.log('///////*********FLAG:' + parseDay, 'info');
+        if(parseDay === true) {
+            if (linkToGrubPage.length > 12) {
+                casper.wait(10000, function () {
+                    casper.then(grubPage);
+                });
+            }
         }
-    });*/
+    });
 }
 
 
@@ -132,6 +149,17 @@ function getId() {
     var links = document.querySelectorAll('section.tabsContent  ul li a.list_item div.saveAd');
     return Array.prototype.map.call(links, function(e) {
         return e.getAttribute('data-savead-id');
+    });
+}
+
+/**
+ *
+ * @returns {*}
+ */
+function getDate() {
+    var date = document.querySelectorAll('aside.item_absolute p.item_supp');
+    return Array.prototype.map.call(date, function(e) {
+        return e.getAttribute('content');
     });
 }
 
@@ -168,8 +196,6 @@ function getContentProducts() {
                 }
                 content['link'] =  e.getAttribute('href');
 
-            } else {
-                parseDay = false;
             }
         }
 
