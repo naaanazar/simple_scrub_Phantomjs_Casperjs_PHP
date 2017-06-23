@@ -133,7 +133,7 @@ function grubPage(){
 
     casper.then(function () {
         this.log('///////*********FLAG:' + parseDay, 'info');
-        if(countPage<4 &&  parseDay === true) {
+        if(parseDay === true) {
             if (linkToGrubPage.length > 12) {
                 casper.wait(10000, function () {
                     casper.then(grubPage);
