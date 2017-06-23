@@ -39,7 +39,6 @@ casper.run(function () {
 
 function grubPage(){
 
-
     if (linkToGrubPage !== null) {
         casper.thenOpen(linkToGrubPage, function () {
             this.scrollToBottom();
