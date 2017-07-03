@@ -39,7 +39,7 @@ casper.then(function() {
 
                 this.fillSelectors('form#adreply_form', {
                 'input[name="name"]':    'Nazar',
-                'input[name="email"]':    'naaa@ukr.net',
+                'input[name="email"]':    'nazar.k.php@gmail.com',
                 'input[name="phone"]':   '0299568959',
                 'textarea[name="body"]':       'Good car',
                 'input[name="cc"]':         1

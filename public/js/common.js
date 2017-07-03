@@ -1,4 +1,6 @@
-var basicURL = 'http://parser:8080'
+var parseUrl = new URL(window.location.href);
+var basicURL = parseUrl.origin;
+
 
 $(document).on('click', '.send_message_button', function() {
     $('.send_message_button').hide();

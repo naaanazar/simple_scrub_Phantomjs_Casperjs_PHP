@@ -1,3 +1,5 @@
+var serverUrl = 'http://parser:8080'
+
 var elements = [];
 var links;
 var linkToGrubPage = null;
@@ -51,7 +53,7 @@ function grubPage(){
         });
 
         casper.then(function() {
-            casper.wait(5000, function(){
+            casper.wait(12000, function(){
                 casper.capture('results/screenshots/step3.png');
             })
         });
@@ -61,10 +63,10 @@ function grubPage(){
 
    // casper.viewport(1920, 1080);
     casper.then(function() {
-        casper.wait(7000, function() {
-            casper.waitForSelector('img', function() {
+        casper.wait(12000, function() {
+           // casper.waitForSelector('img', function() {
                  casper.capture('results/screenshots/page_' + countPage + '.png');
-            });
+         //   });
         });
     });
     casper.viewport(1920, 1080);
@@ -113,7 +115,7 @@ function grubPage(){
         }, save), 'w');
 
 
-        this.open('http://parser:8080/save.php', {
+        this.open('http://parser:8000/save.php', {
             method: 'post',
             data: {
                 'name': '213213',
@@ -135,7 +137,7 @@ function grubPage(){
         this.log('///////*********FLAG:' + parseDay, 'info');
         if(parseDay === true) {
             if (linkToGrubPage.length > 12) {
-                casper.wait(10000, function () {
+                casper.wait(1000, function () {
                     casper.then(grubPage);
                 });
             }

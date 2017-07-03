@@ -51,25 +51,7 @@ exit();
 }
 
 if(isset($_GET['count'])){
-
-    $query = new QueryToDB();
-
-    $today =date('Y-m-d');
-
-    $sql= "SELECT massage, COUNT(*) AS count FROM leboncoin_voitures WHERE date_publish = '$today' GROUP BY massage";
-    $result = $query->queryToDB($sql);
-
-    if ($result->num_rows > 0) {
-        while($row = $result->fetch_assoc()) {
-        $count[$row['massage']] = $row['count'];
-        }
-    }
-
-    $sql= "SELECT * FROM leboncoin_voitures WHERE date_publish = '$today' LIMIT 50";
-    $list = $query->queryToDB($sql);
-
-$view = '../src/views/results.phtml';
-include('../src/views/tamplate.phtml');
+    home();
 exit();
 }
 
@@ -158,9 +140,27 @@ if(isset($_GET['getCountMasseges'])){
     exit();
 }
 
+home();
 
 
+function home(){
 
+    $query = new QueryToDB();
 
-$view = '../src/views/index.phtml';
-include('../src/views/tamplate.phtml');
+    $today =date('Y-m-d');
+
+    $sql= "SELECT massage, COUNT(*) AS count FROM leboncoin_voitures WHERE date_publish = '$today' GROUP BY massage";
+    $result = $query->queryToDB($sql);
+
+    if ($result->num_rows > 0) {
+        while($row = $result->fetch_assoc()) {
+            $count[$row['massage']] = $row['count'];
+        }
+    }
+
+    $sql= "SELECT * FROM leboncoin_voitures WHERE date_publish = '$today' LIMIT 50";
+    $list = $query->queryToDB($sql);
+
+    $view = '../src/views/results.phtml';
+    include('../src/views/tamplate.phtml');
+}
